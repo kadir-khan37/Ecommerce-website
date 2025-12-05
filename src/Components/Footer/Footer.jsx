@@ -3,7 +3,7 @@ import logo_image from '../../assets/logo_image.webp'
 import facebook from '../../assets/facebook.png';
 import instagram from '../../assets/instagram.png'
 import whatsapp from '../../assets/whatsapp.png'
-import './footer.css'
+import './Footer.css'
 const Footer = () => {
   return (
     <div className="footer">
