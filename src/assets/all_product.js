@@ -6,10 +6,9 @@ import p5_img from '../assets/p5.png'
 import p6_img from '../assets/p6_img.webp'
 import p7_img from '../assets/kid1.jpg'
 import p8_img from '../assets/kid4.webp'
-import kids_image5 from '../assets/Kids_image5.jpg'
+import kids_image5 from '../assets/Kids_image5.jpg' // correct case
 import kids_image6 from '../assets/kids_image6.jpg'
 import kids_image7 from '../assets/kids_image7.jpg'
-import kids_image8 from '../assets/kids_image8.jpg'
 import kids_image9 from '../assets/kids_image9.jpg'
 import mens_image_8 from '../assets/mens_image_8.jpg'
 import mens_image_6 from '../assets/mens_image_6.jpg'
@@ -62,7 +61,6 @@ let all_product = [
     { id: 9, name: "Frock", category: "Kids", image: kids_image5, new_price: 55.0, old_price: 100.0 },
     { id: 10, name: "Jacket", category: "Kids", image: kids_image6, new_price: 65.0, old_price: 100.0 },
     { id: 11, name: "Jeans", category: "Kids", image: kids_image7, new_price: 75.0, old_price: 100.0 },
-    { id: 12, name: "Frock/jacket-combo", category: "Kids", image: kids_image8, new_price: 87.0, old_price: 100.0 },
     { id: 13, name: "jeans", category: "Kids", image: kids_image9, new_price: 90.0, old_price: 100.0 },
     { id:15, name: "Jym_outfit", category: "Men", image:p1_img, new_price: 60.0, old_price: 90.5 },
     { id:16, name: "Jeans", category: "Men", image:mens_image_8, new_price: 60.0, old_price: 90.5 },
