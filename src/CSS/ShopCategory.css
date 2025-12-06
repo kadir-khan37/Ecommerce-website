@@ -1,3 +1,6 @@
+.shop-category {
+  background-color: lightcyan;
+}
 .shopcategory-banner{
     display: flex;
     flex-direction: column;
@@ -45,4 +48,33 @@
     color: #272424;
     font-size: 18px;
     font-weight: 500;
+}
+.shopcategory-products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 20px;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .shopcategory-products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .shopcategory-products {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.shop-category.Men .shopcategory-banner img {
+  width: 100%;
+}
+.shop-category.Women .shopcategory-banner img {
+  width: 100%;
+}
+.shop-category.Kids .shopcategory-banner img {
+  width: 100%;
 }

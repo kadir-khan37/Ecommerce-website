@@ -9,17 +9,19 @@ import ShopCategory from './Pages/ShopCategory';
 import Shop from './Pages/Shop';
 import Footer from './Components/Footer/Footer';
 import kidBanner from './assets/kidBanner.webp';
-import menBanner from './assets/menBanner.jpg';
-import women_banner from './assets/women_banner.avif';
+import man_banner2 from './assets/man_banner2.avif';
+import women_banner_2 from './assets/women_banner_2.jpg';
+import kidsbanner2 from './assets/kidsbanner2.jpg';
+
 function App() {
   return (
   <BrowserRouter>
   <Navbar />
   <Routes>
   <Route path='/' element={<Shop/>}></Route>
-  <Route path='/Men' element={<ShopCategory  banner={menBanner} category="Men"/>}></Route>
-  <Route path='/Kids' element={<ShopCategory banner={kidBanner} category="Kids"/>}></Route>
-  <Route path='/Women' element={<ShopCategory banner={women_banner} category="Women"/>}> </Route>
+  <Route path='/Men' element={<ShopCategory  banner={man_banner2 } category="Men"/>}></Route>
+  <Route path='/Kids' element={<ShopCategory banner={kidsbanner2} category="Kids"/>}></Route>
+  <Route path='/Women' element={<ShopCategory banner={women_banner_2} category="Women"/>}> </Route>
   <Route path="/Login" element={<Login/>}></Route>
   <Route path='/Shop' element={<Shop/>}></Route>
   <Route path='/Product' element={<Product/>}></Route>

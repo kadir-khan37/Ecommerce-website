@@ -3,12 +3,15 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 30px;
-  background-color: #ffffff83;
+  background-color: lightcyan;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   font-family: 'Arial', sans-serif;
   position: sticky;
   top: 0;
   z-index: 1000;
+  padding-left: -1%;
+  padding-top: -3%;
+  padding-bottom: 0;
 }
 
 .nav-logo p {
